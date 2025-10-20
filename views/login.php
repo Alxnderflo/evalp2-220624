@@ -22,7 +22,7 @@
                         <div class="alert alert-danger"><?php echo $_SESSION['error']; unset($_SESSION['error']); ?></div>
                     <?php endif; ?>
                     
-                    <form method="POST" action="/evalp2-220624/auth">
+                    <form method="POST" action="<?php echo BASE_URL; ?>auth">
                         <div class="mb-3">
                             <label for="username" class="form-label">Usuario</label>
                             <input type="text" class="form-control" id="username" name="username" required>
