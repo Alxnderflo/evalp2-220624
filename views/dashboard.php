@@ -16,7 +16,7 @@
             <a class="navbar-brand" href="#"><?php echo APP_NAME; ?></a>
             <div class="navbar-nav ms-auto">
                 <span class="navbar-text me-3">Hola, <?php echo $_SESSION['user']; ?></span>
-                <a class="nav-link" href="/evalp2-220624/logout">Cerrar Sesión</a>
+                <a class="nav-link" href="<?php echo BASE_URL; ?>logout">Cerrar Sesión</a>
             </div>
         </div>
     </nav>
@@ -31,7 +31,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Ejercicio 2</h5>
                         <p class="card-text">Cálculo de área y volumen de figuras geométricas</p>
-                        <a href="/evalp2-220624/ejercicio2" class="btn btn-primary">Ir al ejercicio</a>
+                        <a href="<?php echo BASE_URL; ?>ejercicio2" class="btn btn-primary">Ir al ejercicio</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Ejercicio 3</h5>
                         <p class="card-text">Clasificación de triángulos</p>
-                        <a href="/evalp2-220624/ejercicio3" class="btn btn-primary">Ir al ejercicio</a>
+                        <a href="<?php echo BASE_URL; ?>ejercicio3" class="btn btn-primary">Ir al ejercicio</a>
                     </div>
                 </div>
             </div>

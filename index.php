@@ -8,7 +8,7 @@ $url = $_GET['url'] ?? 'login';
 // Verificar autenticación
 $publicRoutes = ['login', 'auth'];
 if (!isset($_SESSION['user']) && !in_array($url, $publicRoutes)) {
-    header('Location: /evalp2-220624/login');
+    header('Location: ' . BASE_URL . 'login');
     exit;
 }
 
